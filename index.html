@@ -8,51 +8,53 @@
 </head>
 <body>
     <h1>Calculator</h1>
-    <div class="card">
+    <form action="" name="calc">
+    <div class="card" >
         <div class="Calc-head">
-            <input type="text" id="result" maxlength="10">
+            <input type="text" id="result" name="screen" maxlength="10" >
 
         </div>
-        <div class="calc-body">
+        <div class="calc-body" >
             <div>
-                <input type="button" class="btn" value="C">
-                <input type="button" class="btn" value="+/-">
-                <input type="button" class="btn" value="%">
-                <input type="button" class="btn btn-style" value="/">
+                <input type="button" class="btn" value="C"onclick="calc.screen.value=''">
+                <input type="button" class="btn" value="&radic;"onclick="calc.screen.value=Math.sqrt(calc.screen.value)">
+                <input type="button" class="btn" value="%"onclick="calc.screen.value+='%'">
+                <input type="button" class="btn btn-style" value="/"onclick="calc.screen.value+='/'">
         
             </div>
         <div>
-                <input type="button" class="btn" value="7">
-                <input type="button" class="btn" value="8">
-                <input type="button" class="btn" value="9">
-                <input type="button" class="btn btn-style" value="*">
+                <input type="button" class="btn" value="7" onclick="calc.screen.value+='7'" >
+                <input type="button" class="btn" value="8"onclick="calc.screen.value+='8'">
+                <input type="button" class="btn" value="9" onclick="calc.screen.value+='9'">
+                <input type="button" class="btn btn-style" value="*" onclick="calc.screen.value+='*'">
         
             </div>
             <div>
-                <input type="button" class="btn" value="4">
-                <input type="button" class="btn" value="5">
-                <input type="button" class="btn" value="6">
-                <input type="button" class="btn btn-style" value="-">
+                <input type="button" class="btn" value="4"onclick="calc.screen.value+='4'">
+                <input type="button" class="btn" value="5"onclick="calc.screen.value+='5'">
+                <input type="button" class="btn" value="6"onclick="calc.screen.value+='6'">
+                <input type="button" class="btn btn-style" value="-"onclick="calc.screen.value+='-'">
         
             </div>
             <div>
-                <input type="button" class="btn" value="1">
-                <input type="button" class="btn" value="2">
-                <input type="button" class="btn" value="3">
-                <input type="button" class="btn btn-style" value="+">
+                <input type="button" class="btn" value="1"onclick="calc.screen.value+='1'">
+                <input type="button" class="btn" value="2"onclick="calc.screen.value+='2'">
+                <input type="button" class="btn" value="3"onclick="calc.screen.value+='3'">
+                <input type="button" class="btn btn-style" value="+"onclick="calc.screen.value+='+'">
         
             </div>
             <div>
-                <input type="button" class="btn" value="0">
-                <input type="button" class="btn" value=".">
-                <input type="button" class="btn" value="DEL">
-                <input type="button" class="btn btn-style" value="=">
+                <input type="button" class="btn" value="0"onclick="calc.screen.value+='0'">
+                <input type="button" class="btn" value="."onclick="calc.screen.value+='.'">
+                <input type="button" class="btn" value="&larr;" onclick="calc.screen.value = calc.screen.value.slice">
+                <input type="button" class="btn btn-style" value="=" onclick="calc.screen.value=eval(calc.screen.value)">
         
             </div>
         
         </div>
 
     </div>
+</form>
     
 </body>
 </html>
