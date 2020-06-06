@@ -3,6 +3,7 @@
     background-color: #42455a;
     margin:0;
     padding:0;
+   
 }
 .navbar{
     top:40px;
@@ -11,6 +12,7 @@
  float:right;
  margin-right:30px;
  justify-content: space-around;
+ 
 
 
 }
@@ -31,7 +33,7 @@ li a {
  font-weight: bold;
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
  cursor: pointer;
-
+position: relative;
 }
 li button {
     
@@ -48,7 +50,15 @@ li a:hover{
     padding:7px;   
 }
 
+.navbar li ul{
+    position:absolute;
+    background: #000;
+    left:-9999px;
 
+}
+.navbar li:hover ul{
+ left:0 px;
+}
 
 h1 ,h3, h5{
     top:50px;
@@ -134,3 +144,112 @@ h2{
 span{
     color:lightblue;
 }
+#H{
+  text-decoration: none;
+  height:50px;
+  color:white;
+  font-weight: bold;
+
+}
+
+.about{
+
+padding:100px;
+
+
+}
+.about img{
+    float:left;
+margin-left: 0px;
+padding-left:0;
+margin-top: 30px;
+box-shadow: black;
+width:320px;
+height:auto;
+}
+
+.about lorem{
+    
+    float:right;
+    text-transform: uppercase;
+    font-size: 15px;
+
+
+    
+}
+.col{
+    float:left;
+    display: inline-block;
+  
+}
+.row{
+    padding-left:30px;
+    background-color: lightslategray;
+}
+h2{
+   border-bottom: white solid;
+   margin-bottom: 10px;
+
+}
+
+
+#htm15{
+    margin-left: 120px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+    
+
+}
+#css{
+    margin-left: 120px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+   
+}
+pre{
+    font-weight: bold;
+}
+
+.inp{
+    
+    margin-left: 120px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+textarea{
+   
+    width:500px;
+    height:auto;
+}
+.contact-form{
+    width:620px;
+    height:auto;
+    margin: auto;
+    margin-top: 30px;
+}
+.b{
+    
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:240px;
+}
+
+footer{
+    width:960px;
+    height:auto;
+    margin: auto;
+    margin-top: 30px;
+    padding:100px;
+    margin-left:-20px
+}
+
+
+
+  
