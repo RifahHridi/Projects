@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&family=Roboto:wght@300&family=Sofia&display=swap');
+*{
+    background-color: #42455a;
+    margin:0;
+    padding:0;
+   background-image: url('wooden-table-in-front-of-beige-sofa-in-floral-royalty-free-image-977822970-1551120475.jpg');
+ 
+}
+.navbar{
+    top:40px;
+    margin-top: 40px;
+ display:flex;
+ float:right;
+ margin-right:30px;
+ justify-content: space-around;
+ 
+
+
+}
+.active{
+    color: #19dafa!important;
+}
+
+
+li{
+    display: inline;
+    margin-right:30px;
+    padding-top: 10px;
+   
+}
+li a {
+    
+ text-decoration: none;
+ font-weight: bold;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ cursor: pointer;
+position: relative;
+}
+li button {
+    
+ border-radius: 50px ;
+ 
+ background-origin: border-box;
+ padding: 5px;
+ 
+
+}
+li a:hover{
+    background-color: lightblue;
+    border-radius:50px ;
+    padding:7px;   
+}
+
+.navbar li ul{
+    position:absolute;
+    background: #000;
+    left:-9999px;
+
+}
+.navbar li:hover ul{
+ left:0 px;
+}
+
+h1 ,h3, h5{
+    top:50px;
+    margin-left:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+   
+
+
+}
+.cap{
+    padding:80px;
+}
+nav ul li a {
+
+    color: black;
+}
+
+h2{
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    
+}
+.navbar-nav{
+    float:left;
+    display: flex;
+    margin-left:50px;
+    padding:10px;
+    
+}
+.navbar-nav:hover{
+   
+    border-radius:50px ;
+    padding:7px; 
+}
+
+.fafa{
+    margin-left: 80px;
+    margin-top: 12%;
+   
+
+    border-radius:50px ;
+     
+}
+ 
+#one{
+
+    float:left;
+    display: flex;
+    margin-left:20px;
+    padding:20px;
+    background: lightblue;
+    border-radius:50px ;
+
+}
+
+
+#two{
+
+    float:left;
+    display: flex;
+    margin-left:20px;
+    padding:20px;
+    background: lightblue;
+    border-radius:50px ;
+    
+}
+#three{
+
+    float:left;
+    display: flex;
+    margin-left:20px;
+    padding:20px;
+    background: lightblue;
+    border-radius:50px ;
+    
+}
+
+span{
+    color:lightblue;
+}
+#H{
+  text-decoration: none;
+  height:50px;
+  color:white;
+  font-weight: bold;
+
+}
+
+.about{
+
+padding:100px;
+
+
+}
+.about img{
+    float:left;
+margin-left: 0px;
+padding-left:0;
+margin-top: 30px;
+box-shadow: black;
+width:320px;
+height:auto;
+}
+
+.about lorem{
+    
+    float:right;
+    text-transform: uppercase;
+    font-size: 15px;
+
+
+    
+}
+.col{
+    float:left;
+    display: inline-block;
+  
+}
+.row{
+    padding-left:30px;
+    background-color: lightslategray;
+}
+h2{
+   border-bottom: white solid;
+   margin-bottom: 10px;
+
+}
+
+
+#htm15{
+    margin-left: 120px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+    
+
+}
+#css{
+    margin-left: 120px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+   
+}
+pre{
+    font-weight: bold;
+}
+
+.inp{
+    
+    margin-left: 120px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+textarea{
+   
+    width:500px;
+    height:auto;
+}
+.contact-form{
+    width:620px;
+    height:auto;
+    margin: auto;
+    margin-top: 30px;
+}
+.b{
+    
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:240px;
+}
+
+footer{
+    width:960px;
+    height:auto;
+    margin: auto;
+    margin-top: 30px;
+    padding:100px;
+    margin-left:-20px
+}
+
+
+
+  
