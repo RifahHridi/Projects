@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&family=Roboto:wght@300&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&family=Roboto:wght@300&family=Sofia&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+   
+   background: wheat;
+    
+}
+
+
+
+nav{
+position:relative;
+
+background: #262626;
+box-sizing: border-box;
+
+}
+
+nav ul{
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float:right;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+
+  padding-left: 20px;
+
+
+}
+nav ul li a{
+   display: block;
+   color:#fff;
+   text-decoration: none;
+   font-weight: bold;
+   padding:20px;
+  
+}
+nav ul li a.active,
+nav ul li a:hover{
+ background: orange;
+
+}
+
+.toggle{
+    width:100%;
+  
+   
+   box-sizing: border-box;
+    text-align: right;
+    padding: 5px 10 px;
+}
+
+.toggle span{
+    color:white;
+font-weight: bold;
+cursor:pointer;
+}
+
+@media (max-width:767px){
+    .toggle{
+display: block;
+
+    }
+    nav{
+        padding:0px;
+    }
+    nav {
+
+        margin: 0;
+        padding: 0;
+        float:none;
+      
+        
+    }
+    nav ul {
+        float: none;
+        text-align: center;
+      display: none;
+      display: block;
+
+    
+
+}
+
+#bar{
+    color: white;
+}
+
+#about-us{
+   top:
+
+}
+ div img{
+
+    height:50vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+ 
